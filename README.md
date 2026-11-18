@@ -3,9 +3,9 @@
 Reproducible Python 3.11 research codebase accompanying the manuscript:
 
 > **Revealing Hidden Messages: A Visual-Aided Approach for Steganography Detection in Image Forensic**  
-> Aditya Kurniawan\*, Sandyka Bala, and Hans Indrawan Sucipto  
+> Aditya Kurniawan, Sandyka Bala\*, and Hans Indrawan Sucipto  
 > School of Computer Science, Bina Nusantara University, Jl. Raya Kebon Jeruk No. 27, Palmerah, Jakarta Barat 11530, Indonesia  
-> \*Corresponding author: `adkurniawan@binus.edu` — *Statistics, Optimization & Information Computing (SOIC)* (`DOI: 10.19139/soic-2310-5070-3537`)  
+> \*Corresponding author: `sandyka.bala@binus.edu` — *Statistics, Optimization & Information Computing (SOIC)* (`DOI: 10.19139/soic-2310-5070-3537`)  
 > Repository: [https://github.com/HeyThisHaku/RGB-Bit-Plane-Revealer](https://github.com/HeyThisHaku/RGB-Bit-Plane-Revealer)
 
 ---
