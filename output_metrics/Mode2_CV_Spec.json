@@ -1,0 +1,165 @@
+{
+  "description": "Strict 5-Fold Cover-Grouped Out-of-Fold CV calibration for Mode II (zero data leakage)",
+  "fold_thresholds": {
+    "0": {
+      "c1_lsb_trans_abs": 0.1992,
+      "c1_pvd_h0_abs": 0.351,
+      "c1_pvd_b012_L": 0.0569,
+      "c2_rs_top": 0.1791,
+      "bpcs_col0_head": 0.1802,
+      "uncorr_head": 0.1685,
+      "rand40": 0.9,
+      "bpcs_inv_top": 0.0465
+    },
+    "1": {
+      "c1_lsb_trans_abs": 0.1805,
+      "c1_pvd_h0_abs": 0.3124,
+      "c1_pvd_b012_L": 0.0706,
+      "c2_rs_top": 0.1808,
+      "bpcs_col0_head": 0.1802,
+      "uncorr_head": 0.1753,
+      "rand40": 0.9,
+      "bpcs_inv_top": 0.0481
+    },
+    "2": {
+      "c1_lsb_trans_abs": 0.1937,
+      "c1_pvd_h0_abs": 0.3412,
+      "c1_pvd_b012_L": 0.0706,
+      "c2_rs_top": 0.2019,
+      "bpcs_col0_head": 0.1959,
+      "uncorr_head": 0.1757,
+      "rand40": 0.9,
+      "bpcs_inv_top": 0.0476
+    },
+    "3": {
+      "c1_lsb_trans_abs": 0.1776,
+      "c1_pvd_h0_abs": 0.3124,
+      "c1_pvd_b012_L": 0.0706,
+      "c2_rs_top": 0.2019,
+      "bpcs_col0_head": 0.1959,
+      "uncorr_head": 0.1756,
+      "rand40": 0.9,
+      "bpcs_inv_top": 0.0433
+    },
+    "4": {
+      "c1_lsb_trans_abs": 0.1992,
+      "c1_pvd_h0_abs": 0.351,
+      "c1_pvd_b012_L": 0.0653,
+      "c2_rs_top": 0.129,
+      "bpcs_col0_head": 0.1764,
+      "uncorr_head": 0.1752,
+      "rand40": 0.9,
+      "bpcs_inv_top": 0.0481
+    }
+  },
+  "fold_threshold_summary": {
+    "c1_lsb_trans_abs": {
+      "mean": 0.19,
+      "std": 0.0103,
+      "median": 0.1937
+    },
+    "c1_pvd_h0_abs": {
+      "mean": 0.3336,
+      "std": 0.0198,
+      "median": 0.3412
+    },
+    "c1_pvd_b012_L": {
+      "mean": 0.0668,
+      "std": 0.006,
+      "median": 0.0706
+    },
+    "c2_rs_top": {
+      "mean": 0.1785,
+      "std": 0.0298,
+      "median": 0.1808
+    },
+    "bpcs_col0_head": {
+      "mean": 0.1857,
+      "std": 0.0094,
+      "median": 0.1802
+    },
+    "uncorr_head": {
+      "mean": 0.1741,
+      "std": 0.0031,
+      "median": 0.1753
+    },
+    "rand40": {
+      "mean": 0.9,
+      "std": 0.0,
+      "median": 0.9
+    },
+    "bpcs_inv_top": {
+      "mean": 0.0467,
+      "std": 0.002,
+      "median": 0.0476
+    }
+  },
+  "consensus_thresholds": {
+    "c1_lsb_trans_abs": 0.1937,
+    "c1_pvd_h0_abs": 0.3412,
+    "c1_pvd_b012_L": 0.0706,
+    "c2_rs_top": 0.1808,
+    "bpcs_col0_head": 0.1802,
+    "uncorr_head": 0.1753,
+    "rand40": 0.9,
+    "bpcs_inv_top": 0.0476
+  },
+  "verified_oof_performance": {
+    "n_total": 12480,
+    "tp": 10639,
+    "fp": 43,
+    "tn": 917,
+    "fn": 881,
+    "accuracy_pct": 92.6,
+    "balanced_acc_pct": 93.94,
+    "roc_auc": 0.9669,
+    "clean_960_fpr_pct": 4.48,
+    "clean_960_fpr_wilson95_pct": [
+      3.34,
+      5.98
+    ],
+    "stego_recall_pct": 92.35,
+    "stego_recall_wilson95_pct": [
+      91.85,
+      92.82
+    ],
+    "clean_fpr_by_dataset_pct": {
+      "SSC": 7.92,
+      "BCC": 1.67,
+      "Gray": 7.92,
+      "FC": 0.42
+    },
+    "clean_fpr_by_layer_pct": {
+      "C1": 1.35,
+      "C2": 1.25,
+      "C3": 2.19
+    },
+    "stego_recall_by_payload_method_pct": {
+      "P1_Plaintext": {
+        "overall": 95.07,
+        "LSB": 100.0,
+        "PVD": 85.21,
+        "BPCS": 100.0
+      },
+      "P2_StructuredBinary": {
+        "overall": 84.1,
+        "LSB": 69.69,
+        "PVD": 84.06,
+        "BPCS": 98.54
+      },
+      "P3_CompressedZlib": {
+        "overall": 94.97,
+        "LSB": 100.0,
+        "PVD": 85.83,
+        "BPCS": 99.06
+      },
+      "P4_EncryptedCTR": {
+        "overall": 95.28,
+        "LSB": 99.9,
+        "PVD": 85.94,
+        "BPCS": 100.0
+      },
+      "All_11520": 92.35
+    }
+  }
+}

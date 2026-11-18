@@ -1,0 +1,448 @@
+{
+  "raw_population_summary": {
+    "SSC_android_icon": {
+      "n_files": 8161,
+      "mean_kb_decimal": 8.59,
+      "mean_kib_binary": 8.38,
+      "extensions": {
+        ".png": 8161
+      },
+      "modes": {
+        "RGBA": 8161
+      },
+      "resolutions_top10": {
+        "64x64": 4304,
+        "128x128": 3364,
+        "48x48": 164,
+        "256x256": 93,
+        "100x100": 56,
+        "96x96": 48,
+        "60x60": 40,
+        "32x32": 20,
+        "200x200": 15,
+        "160x160": 14
+      },
+      "min_res": "24x24",
+      "max_res": "512x512"
+    },
+    "BCC_pokemon": {
+      "n_files": 819,
+      "mean_kb_decimal": 50.48,
+      "mean_kib_binary": 49.3,
+      "extensions": {
+        ".png": 819
+      },
+      "modes": {
+        "RGBA": 819
+      },
+      "resolutions_top10": {
+        "256x256": 819
+      },
+      "min_res": "256x256",
+      "max_res": "256x256"
+    },
+    "Gray": {
+      "n_files": 10000,
+      "mean_kb_decimal": 9.47,
+      "mean_kib_binary": 9.24,
+      "extensions": {
+        ".png": 10000
+      },
+      "modes": {
+        "L": 10000
+      },
+      "resolutions_top10": {
+        "256x256": 10000
+      },
+      "min_res": "256x256",
+      "max_res": "256x256"
+    },
+    "FC_full_color": {
+      "n_files": 8051,
+      "mean_kb_decimal": 351.38,
+      "mean_kib_binary": 343.14,
+      "extensions": {
+        ".png": 8002,
+        ".jpg": 49
+      },
+      "modes": {
+        "RGB": 8051
+      },
+      "resolutions_top10": {
+        "590x445": 8001,
+        "1024x768": 30,
+        "2832x2128": 20
+      },
+      "min_res": "590x445",
+      "max_res": "2832x2128"
+    }
+  },
+  "gray_5906_bpcs_blocks": 9,
+  "fc_species_counts": {
+    "Black Sea Sprat": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Gilt Head Bream": {
+      "png": 1001,
+      "jpg": 49
+    },
+    "Horse Mackerel": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Red Mullet": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Red Sea Bream": {
+      "png": 1,
+      "jpg": 0
+    },
+    "Sea Bass": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Shrimp": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Striped Red Mullet": {
+      "png": 1000,
+      "jpg": 0
+    },
+    "Trout": {
+      "png": 1000,
+      "jpg": 0
+    }
+  },
+  "unified_960_summary": {
+    "SSC_android_icon": {
+      "n_sampled": 240,
+      "normalized_mean_kib": 7.01,
+      "mean_bpp_6160b": 0.9502,
+      "mean_channel_cov_pct": 31.67,
+      "pool_summary": {
+        "scanned": 8161,
+        "admissible": 7321,
+        "excluded": 840,
+        "strata_pool": {
+          "64x64": 3703,
+          "128x128": 3343,
+          "160x160": 14,
+          "96x96": 48,
+          "256x256": 93,
+          "80x80": 12,
+          "512x512": 10,
+          "200x200": 15,
+          "100x100": 47,
+          "60x60": 30,
+          "192x192": 2,
+          "188x188": 2,
+          "120x120": 2
+        },
+        "strata_sampled": {
+          "100x100": 2,
+          "128x128": 110,
+          "200x200": 1,
+          "256x256": 3,
+          "60x60": 1,
+          "64x64": 121,
+          "96x96": 2
+        }
+      }
+    },
+    "BCC_pokemon": {
+      "n_sampled": 240,
+      "normalized_mean_kib": 43.24,
+      "mean_bpp_6160b": 0.094,
+      "mean_channel_cov_pct": 3.13,
+      "pool_summary": {
+        "scanned": 819,
+        "admissible": 819,
+        "excluded": 0,
+        "strata_pool": {
+          "BCC": 819
+        },
+        "strata_sampled": {
+          "BCC": 240
+        }
+      }
+    },
+    "Gray": {
+      "n_sampled": 240,
+      "normalized_mean_kib": 48.81,
+      "mean_bpp_6160b": 0.094,
+      "mean_channel_cov_pct": 3.13,
+      "pool_summary": {
+        "scanned": 10000,
+        "admissible": 9999,
+        "excluded": 1,
+        "strata_pool": {
+          "Gray": 9999
+        },
+        "strata_sampled": {
+          "Gray": 240
+        }
+      }
+    },
+    "FC_full_color": {
+      "n_sampled": 240,
+      "normalized_mean_kib": 359.99,
+      "mean_bpp_6160b": 0.0235,
+      "mean_channel_cov_pct": 0.78,
+      "pool_summary": {
+        "scanned": 8001,
+        "admissible": 8001,
+        "excluded": 0,
+        "strata_pool": {
+          "Black Sea Sprat": 1000,
+          "Gilt Head Bream": 1000,
+          "Horse Mackerel": 1000,
+          "Red Mullet": 1000,
+          "Red Sea Bream": 1,
+          "Sea Bass": 1000,
+          "Shrimp": 1000,
+          "Striped Red Mullet": 1000,
+          "Trout": 1000
+        },
+        "strata_sampled": {
+          "Black Sea Sprat": 30,
+          "Gilt Head Bream": 30,
+          "Horse Mackerel": 30,
+          "Red Mullet": 30,
+          "Sea Bass": 30,
+          "Shrimp": 30,
+          "Striped Red Mullet": 30,
+          "Trout": 30
+        }
+      }
+    }
+  },
+  "pvd_boundary_d16_audit": {
+    "total_embedded_corners": 2833453,
+    "lt_16": 2628431,
+    "eq_16": 9551,
+    "gt_16_lt_32": 78368,
+    "ge_32": 117103,
+    "pct_eq_16": 0.3371
+  },
+  "archival_sampled_240_counts": {
+    "LSB": {
+      "SSC_android_icon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "BCC_pokemon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "Gray": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "FC_full_color": {
+        "stego_count": 240,
+        "reveal_count": 240
+      }
+    },
+    "PVD": {
+      "SSC_android_icon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "BCC_pokemon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "Gray": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "FC_full_color": {
+        "stego_count": 195,
+        "reveal_count": 195
+      }
+    },
+    "BPCS": {
+      "SSC_android_icon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "BCC_pokemon": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "Gray": {
+        "stego_count": 240,
+        "reveal_count": 240
+      },
+      "FC_full_color": {
+        "stego_count": 240,
+        "reveal_count": 240
+      }
+    }
+  },
+  "paper_reveal_photo_figures": [
+    {
+      "path": "bcc_clear_bpcs.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "bcc_clear_lsb.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "bcc_clear_pvd.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "fc_clear_bpcs.png",
+      "size": [
+        590,
+        445
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "fc_clear_lsb.png",
+      "size": [
+        590,
+        445
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "fc_clear_pvd.png",
+      "size": [
+        590,
+        445
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "fc_invisible_pvd.png",
+      "size": [
+        1024,
+        768
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "gray_clear_bpcs.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "gray_clear_lsb.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "gray_clear_pvd.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "ssc_clear_bpcs.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "ssc_clear_lsb.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "ssc_clear_pvd.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "ssc_tidakterlihat_bpcs.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "tabel_gambar.png",
+      "size": [
+        466,
+        393
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "lsb/bcc_clear.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "lsb/fc_attenuated_lsb.png",
+      "size": [
+        590,
+        445
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "lsb/fc_clear.png",
+      "size": [
+        590,
+        445
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "lsb/gray_clear.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "lsb/ssc_clear.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    }
+  ]
+}

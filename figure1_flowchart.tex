@@ -1,0 +1,82 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{0.88\textwidth}{!}{%
+\begin{tikzpicture}[
+    font=\footnotesize,
+    box/.style={rectangle, rounded corners=2pt, draw=black!70, fill=white, semithick,
+                align=center, inner sep=3.5pt},
+    data/.style={box, minimum width=2.9cm, minimum height=1.25cm},
+    wide/.style={box, minimum width=12.2cm},
+    meth/.style={box, text width=3.7cm, minimum height=1.55cm},
+    comp/.style={box, text width=3.7cm, minimum height=2.1cm, draw=blue!55!black},
+    sig/.style={box, text width=3.7cm, minimum height=1.1cm, draw=teal!60!black},
+    band/.style={rectangle, rounded corners=4pt, draw=black!30, inner xsep=0.22cm, inner ysep=0.14cm},
+    stage/.style={anchor=west, font=\scriptsize\bfseries, text=black!70},
+    flow/.style={-{Latex[length=2.4mm, width=1.8mm]}, semithick, draw=black!75},
+    flowthick/.style={-{Latex[length=3.2mm, width=2.6mm]}, very thick, draw=black!60},
+    note/.style={font=\scriptsize\itshape, text=black!60, anchor=west}
+]
+
+\foreach \n/\y in {1/0, 2/-5.9, 3/-9.25, 4/-12.2, 5/-14.8} {
+  \coordinate (eL\n) at (-6.25,\y);
+  \coordinate (eR\n) at (6.25,\y);
+}
+
+\node[stage] (t1) at (-6.15,0.98) {STAGE 1 \,|\, Data preparation and payload insertion};
+\node[data] (d1) at (-4.8,0) {\textbf{SSC}\\Android icons\\{\scriptsize $64{\times}64$ modal, $N{=}8{,}161$}};
+\node[data] (d2) at (-1.6,0) {\textbf{BCC}\\Pok\'emon sprites\\{\scriptsize $256{\times}256$, $N{=}819$}};
+\node[data] (d3) at (1.6,0) {\textbf{Gray}\\BOSSBase scenes\\{\scriptsize $256{\times}256$, $N{=}10{,}000$}};
+\node[data] (d4) at (4.8,0) {\textbf{FC}\\Rotated fish photos\\{\scriptsize $590{\times}445$ modal, $N{=}8{,}051$}};
+\node[wide, minimum height=0.75cm] (smp) at (0,-1.75) {\textbf{Unified stratified cohort (\texttt{seed=3537}):} $n{=}240$ admissible 24-bit RGB covers/group $\rightarrow$ $960$ covers ($2{,}880$ P1 stego pairs)};
+\node[wide, minimum height=1.3cm] (pay) at (0,-3.1) {\textbf{Multi-payload insertion} ($770$ B $=6{,}160$ bits per image)\\
+    P1 Plaintext (\textit{Lorem Ipsum}) \,$\cdot$\, P2 Structured binary (ELF64)\\
+    P3 Compressed (Zlib) \,$\cdot$\, P4 Encrypted (CTR-Mode)};
+\foreach \i in {d1,d2,d3,d4} \draw[flow] (\i.south) -- (\i.south |- smp.north);
+\draw[flow] (smp.south) -- (pay.north);
+\begin{scope}[on background layer]
+  \node[band, fill=gray!9, fit=(t1)(d1)(d4)(pay)(eL1)(eR1)] (b1) {};
+\end{scope}
+
+\node[stage] (t2) at (-6.15,-4.8) {STAGE 2 \,|\, Steganographic embedding};
+\node[meth] (m1) at (-4.2,-5.9) {\textbf{LSB}\\$I'=(I\land 254)\lor M$\\{\scriptsize row-major from $(0,0)$}};
+\node[meth] (m2) at (0,-5.9) {\textbf{PVD} ($3{\times}3$ blocks)\\$t(d_{u,v})\in\{2,3,4\}$ bits\\{\scriptsize block corners, left edge}};
+\node[meth] (m3) at (4.2,-5.9) {\textbf{BPCS} ($8{\times}8$ blocks)\\$\alpha\ge\alpha_T$, planes $7{\rightarrow}0$\\{\scriptsize direct block replacement}};
+\begin{scope}[on background layer]
+  \node[band, fill=orange!8, fit=(t2)(m1)(m3)(eL2)(eR2)] (b2) {};
+\end{scope}
+
+\node[stage] (t3) at (-6.15,-7.85) {STAGE 3 \,|\, Proposed three-component forensic framework};
+\node[comp] (c1) at (-4.2,-9.25) {\textbf{Component 1}\\RGB Bit-Plane\\Revealer\\$(I \bmod 2)\times 255$\\{\scriptsize shows \textit{where} bits changed}};
+\node[comp] (c2) at (0,-9.25)    {\textbf{Component 2}\\Hexadecimal \& Entropy\\Analyzer\\$H_{\text{global}},\;H_{0,\text{ROI}}$\\{\scriptsize shows \textit{how random} bytes are}};
+\node[comp] (c3) at (4.2,-9.25) {\textbf{Component 3}\\Dataset Statistical\\Analyzer\\$\Delta\sigma^2$, MSE, PSNR, $\chi^2$, PoV\\{\scriptsize shows \textit{how much} stats shift}};
+\begin{scope}[on background layer]
+  \node[band, fill=blue!6, fit=(t3)(c1)(c3)(eL3)(eR3)] (b3) {};
+\end{scope}
+
+\node[stage] (t4) at (-6.15,-11.3) {STAGE 4 \,|\, Modular Python analyzer pipeline};
+\node[wide, minimum height=0.95cm] (fus) at (0,-12.2) {\textbf{Visual--statistical fusion:} batch CLI ingestion $\cdot$ byte-level Hex/RGB inspection\\
+    unified Cover / Stego / Reveal multi-layer metric extraction};
+\begin{scope}[on background layer]
+  \node[band, fill=violet!7, fit=(t4)(fus)(eL4)(eR4)] (b4) {};
+\end{scope}
+
+\node[stage] (t5) at (-6.15,-13.7) {STAGE 5 \,|\, Pattern recognition and objective decision};
+\node[sig] (s1) at (-4.2,-14.8) {\textbf{LSB signature}\\{\scriptsize horizontal band from top-left}};
+\node[sig] (s2) at (0,-14.8) {\textbf{PVD signature}\\{\scriptsize spaced $3{\times}3$ clusters, left edge}};
+\node[sig] (s3) at (4.2,-14.8) {\textbf{BPCS signature}\\{\scriptsize complex-object tiles}};
+\node[wide, minimum height=1.05cm, fill=teal!8, draw=teal!60!black] (dec) at (0,-16.3) {\textbf{Mode~I (Paired):} \textbf{Clear}/\textbf{Faint}/\textbf{Invisible} (Eq.~\ref{eq:objective_visibility}) \,|\, \textbf{Stego/Clean} ($\Delta C_{\text{bbox}}, \Delta H_{0,\text{ROI}}, \chi^2, \text{PSNR}$)\\
+    \textbf{Mode~II (Blind):} calibrated rules $\mathcal{M}_{1..3}^{\text{blind}}$ (Eq.~\ref{eq:mode2_blind}) $\rightarrow$ \textbf{Stego vs.\ Clean}};
+\foreach \s in {s1,s2,s3} \draw[flow] (\s.south) -- (\s.south |- dec.north);
+\begin{scope}[on background layer]
+  \node[band, fill=teal!6, fit=(t5)(s1)(s3)(dec)(eL5)(eR5)] (b5) {};
+\end{scope}
+
+\draw[flowthick] (b1.south) -- node[note, xshift=0.15cm] {cover images + payloads} (b2.north);
+\draw[flowthick] (b2.south) -- node[note, xshift=0.15cm] {every stego image goes through all three components} (b3.north);
+\draw[flowthick] (b3.south) -- node[note, xshift=0.15cm] {component outputs} (b4.north);
+\draw[flowthick] (b4.south) -- node[note, xshift=0.15cm] {fused visual and statistical evidence} (b5.north);
+\end{tikzpicture}%
+}
+\caption{\textcolor{blue}{Flowchart of the proposed visual-aided steganography detection methodology, from unified cohort preparation to Mode~I (paired) and Mode~II (blind) forensic decisions.}}
+\label{fig:proposed_methodology_flow}
+\end{figure}

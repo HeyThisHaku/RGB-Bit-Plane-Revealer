@@ -1,0 +1,1491 @@
+{
+  "multipayload": {
+    "1_Plaintext_LoremIpsum": {
+      "LSB": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 2926.55,
+          "mean_lsb_flips": 2926.55,
+          "lsb_flip_rate_pct": 47.51,
+          "mean_mse": 0.1512,
+          "mean_psnr_db": 57.37,
+          "mean_h0_roi": 0.9958,
+          "mean_h_global": 3.7255,
+          "mean_delta_c_bbox": 116.08,
+          "mean_s_vis": 95.91,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 2859.2,
+          "mean_lsb_flips": 2859.2,
+          "lsb_flip_rate_pct": 46.42,
+          "mean_mse": 0.0145,
+          "mean_psnr_db": 66.5,
+          "mean_h0_roi": 0.9958,
+          "mean_h_global": 3.7714,
+          "mean_delta_c_bbox": 105.48,
+          "mean_s_vis": 102.74,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 3095.45,
+          "mean_lsb_flips": 3095.45,
+          "lsb_flip_rate_pct": 50.25,
+          "mean_mse": 0.0157,
+          "mean_psnr_db": 66.16,
+          "mean_h0_roi": 0.9958,
+          "mean_h_global": 6.7832,
+          "mean_delta_c_bbox": 114.2,
+          "mean_s_vis": 75.39,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 2987.36,
+          "mean_lsb_flips": 2987.36,
+          "lsb_flip_rate_pct": 48.5,
+          "mean_mse": 0.0038,
+          "mean_psnr_db": 72.34,
+          "mean_h0_roi": 0.9958,
+          "mean_h_global": 6.8416,
+          "mean_delta_c_bbox": 107.6,
+          "mean_s_vis": 77.28,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 2967.14,
+          "mean_lsb_flips": 2967.14,
+          "lsb_flip_rate_pct": 48.17,
+          "mean_psnr_db": 65.59,
+          "mean_h0_roi": 0.9958,
+          "eq9_counts": {
+            "Clear": 960,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        }
+      },
+      "PVD": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 2147.07,
+          "mean_lsb_flips": 1393.86,
+          "lsb_flip_rate_pct": 22.63,
+          "mean_mse": 1.1322,
+          "mean_psnr_db": 49.71,
+          "mean_h0_roi": 0.8704,
+          "mean_h_global": 3.7392,
+          "mean_delta_c_bbox": 52.2,
+          "mean_s_vis": 42.59,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 2280.1,
+          "mean_lsb_flips": 1518.36,
+          "lsb_flip_rate_pct": 24.65,
+          "mean_mse": 0.0566,
+          "mean_psnr_db": 60.74,
+          "mean_h0_roi": 0.7119,
+          "mean_h_global": 3.7668,
+          "mean_delta_c_bbox": 46.07,
+          "mean_s_vis": 44.35,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 2194.69,
+          "mean_lsb_flips": 1426.66,
+          "lsb_flip_rate_pct": 23.16,
+          "mean_mse": 0.0776,
+          "mean_psnr_db": 59.64,
+          "mean_h0_roi": 0.997,
+          "mean_h_global": 6.782,
+          "mean_delta_c_bbox": 49.55,
+          "mean_s_vis": 32.37,
+          "eq9_counts": {
+            "Clear": 167,
+            "Faint": 73,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 2266.94,
+          "mean_lsb_flips": 1503.4,
+          "lsb_flip_rate_pct": 24.41,
+          "mean_mse": 0.0138,
+          "mean_psnr_db": 66.85,
+          "mean_h0_roi": 0.8401,
+          "mean_h_global": 6.846,
+          "mean_delta_c_bbox": 48.3,
+          "mean_s_vis": 40.33,
+          "eq9_counts": {
+            "Clear": 216,
+            "Faint": 24,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 2222.2,
+          "mean_lsb_flips": 1460.57,
+          "lsb_flip_rate_pct": 23.71,
+          "mean_psnr_db": 59.24,
+          "mean_h0_roi": 0.8548,
+          "eq9_counts": {
+            "Clear": 863,
+            "Faint": 97,
+            "Invisible": 0
+          }
+        }
+      },
+      "BPCS": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1608.76,
+          "mean_lsb_flips": 936.5,
+          "lsb_flip_rate_pct": 15.2,
+          "mean_mse": 25.1034,
+          "mean_psnr_db": 38.58,
+          "mean_h0_roi": 0.9062,
+          "mean_h_global": 3.5852,
+          "mean_delta_c_bbox": 67.26,
+          "mean_s_vis": 47.4,
+          "eq9_counts": {
+            "Clear": 189,
+            "Faint": 50,
+            "Invisible": 1
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 1802.35,
+          "mean_lsb_flips": 1102.89,
+          "lsb_flip_rate_pct": 17.9,
+          "mean_mse": 1.8828,
+          "mean_psnr_db": 48.82,
+          "mean_h0_roi": 0.8186,
+          "mean_h_global": 3.6942,
+          "mean_delta_c_bbox": 48.74,
+          "mean_s_vis": 34.45,
+          "eq9_counts": {
+            "Clear": 124,
+            "Faint": 91,
+            "Invisible": 25
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 1640.15,
+          "mean_lsb_flips": 1002.79,
+          "lsb_flip_rate_pct": 16.28,
+          "mean_mse": 2.6673,
+          "mean_psnr_db": 49.08,
+          "mean_h0_roi": 0.9865,
+          "mean_h_global": 6.7826,
+          "mean_delta_c_bbox": 81.49,
+          "mean_s_vis": 53.3,
+          "eq9_counts": {
+            "Clear": 182,
+            "Faint": 40,
+            "Invisible": 18
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 1605.58,
+          "mean_lsb_flips": 892.85,
+          "lsb_flip_rate_pct": 14.49,
+          "mean_mse": 0.3163,
+          "mean_psnr_db": 55.93,
+          "mean_h0_roi": 0.9946,
+          "mean_h_global": 6.8305,
+          "mean_delta_c_bbox": 117.87,
+          "mean_s_vis": 76.7,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 1664.21,
+          "mean_lsb_flips": 983.76,
+          "lsb_flip_rate_pct": 15.97,
+          "mean_psnr_db": 48.1,
+          "mean_h0_roi": 0.9265,
+          "eq9_counts": {
+            "Clear": 735,
+            "Faint": 181,
+            "Invisible": 44
+          }
+        }
+      }
+    },
+    "2_Structured_Binary": {
+      "LSB": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1819.17,
+          "mean_lsb_flips": 1819.17,
+          "lsb_flip_rate_pct": 29.53,
+          "mean_mse": 0.0994,
+          "mean_psnr_db": 59.57,
+          "mean_h0_roi": 0.7236,
+          "mean_h_global": 3.5799,
+          "mean_delta_c_bbox": 73.61,
+          "mean_s_vis": 59.0,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 1300.67,
+          "mean_lsb_flips": 1300.67,
+          "lsb_flip_rate_pct": 21.11,
+          "mean_mse": 0.0066,
+          "mean_psnr_db": 69.94,
+          "mean_h0_roi": 0.7238,
+          "mean_h_global": 3.7262,
+          "mean_delta_c_bbox": 48.75,
+          "mean_s_vis": 47.35,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 3152.06,
+          "mean_lsb_flips": 3152.06,
+          "lsb_flip_rate_pct": 51.17,
+          "mean_mse": 0.016,
+          "mean_psnr_db": 66.1,
+          "mean_h0_roi": 0.7234,
+          "mean_h_global": 6.7828,
+          "mean_delta_c_bbox": 116.39,
+          "mean_s_vis": 77.1,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 2289.83,
+          "mean_lsb_flips": 2289.83,
+          "lsb_flip_rate_pct": 37.17,
+          "mean_mse": 0.0029,
+          "mean_psnr_db": 73.52,
+          "mean_h0_roi": 0.7232,
+          "mean_h_global": 6.8357,
+          "mean_delta_c_bbox": 82.61,
+          "mean_s_vis": 59.1,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 2140.43,
+          "mean_lsb_flips": 2140.43,
+          "lsb_flip_rate_pct": 34.75,
+          "mean_psnr_db": 67.28,
+          "mean_h0_roi": 0.7235,
+          "eq9_counts": {
+            "Clear": 960,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        }
+      },
+      "PVD": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1348.63,
+          "mean_lsb_flips": 838.3,
+          "lsb_flip_rate_pct": 13.61,
+          "mean_mse": 1.2517,
+          "mean_psnr_db": 50.03,
+          "mean_h0_roi": 0.6682,
+          "mean_h_global": 3.5709,
+          "mean_delta_c_bbox": 31.99,
+          "mean_s_vis": 25.28,
+          "eq9_counts": {
+            "Clear": 19,
+            "Faint": 190,
+            "Invisible": 31
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 970.02,
+          "mean_lsb_flips": 640.72,
+          "lsb_flip_rate_pct": 10.4,
+          "mean_mse": 0.0384,
+          "mean_psnr_db": 62.69,
+          "mean_h0_roi": 0.4254,
+          "mean_h_global": 3.7184,
+          "mean_delta_c_bbox": 19.79,
+          "mean_s_vis": 18.92,
+          "eq9_counts": {
+            "Clear": 38,
+            "Faint": 31,
+            "Invisible": 171
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 2196.03,
+          "mean_lsb_flips": 1427.25,
+          "lsb_flip_rate_pct": 23.17,
+          "mean_mse": 0.1084,
+          "mean_psnr_db": 58.28,
+          "mean_h0_roi": 0.9585,
+          "mean_h_global": 6.782,
+          "mean_delta_c_bbox": 49.61,
+          "mean_s_vis": 32.42,
+          "eq9_counts": {
+            "Clear": 173,
+            "Faint": 67,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 1345.53,
+          "mean_lsb_flips": 889.85,
+          "lsb_flip_rate_pct": 14.45,
+          "mean_mse": 0.0115,
+          "mean_psnr_db": 67.99,
+          "mean_h0_roi": 0.6331,
+          "mean_h_global": 6.8368,
+          "mean_delta_c_bbox": 28.66,
+          "mean_s_vis": 23.25,
+          "eq9_counts": {
+            "Clear": 0,
+            "Faint": 189,
+            "Invisible": 51
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 1465.05,
+          "mean_lsb_flips": 949.03,
+          "lsb_flip_rate_pct": 15.41,
+          "mean_psnr_db": 59.75,
+          "mean_h0_roi": 0.6713,
+          "eq9_counts": {
+            "Clear": 230,
+            "Faint": 477,
+            "Invisible": 253
+          }
+        }
+      },
+      "BPCS": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1472.71,
+          "mean_lsb_flips": 811.53,
+          "lsb_flip_rate_pct": 13.17,
+          "mean_mse": 24.2463,
+          "mean_psnr_db": 39.26,
+          "mean_h0_roi": 0.7113,
+          "mean_h_global": 3.4788,
+          "mean_delta_c_bbox": 58.87,
+          "mean_s_vis": 41.31,
+          "eq9_counts": {
+            "Clear": 159,
+            "Faint": 77,
+            "Invisible": 4
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 1733.77,
+          "mean_lsb_flips": 1039.34,
+          "lsb_flip_rate_pct": 16.87,
+          "mean_mse": 1.8674,
+          "mean_psnr_db": 49.07,
+          "mean_h0_roi": 0.6597,
+          "mean_h_global": 3.6883,
+          "mean_delta_c_bbox": 45.84,
+          "mean_s_vis": 32.39,
+          "eq9_counts": {
+            "Clear": 112,
+            "Faint": 99,
+            "Invisible": 29
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 1641.1,
+          "mean_lsb_flips": 1000.04,
+          "lsb_flip_rate_pct": 16.23,
+          "mean_mse": 2.9163,
+          "mean_psnr_db": 48.86,
+          "mean_h0_roi": 0.8477,
+          "mean_h_global": 6.7821,
+          "mean_delta_c_bbox": 81.37,
+          "mean_s_vis": 53.22,
+          "eq9_counts": {
+            "Clear": 183,
+            "Faint": 38,
+            "Invisible": 19
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 1592.87,
+          "mean_lsb_flips": 879.63,
+          "lsb_flip_rate_pct": 14.28,
+          "mean_mse": 0.3381,
+          "mean_psnr_db": 55.74,
+          "mean_h0_roi": 0.7534,
+          "mean_h_global": 6.8302,
+          "mean_delta_c_bbox": 115.98,
+          "mean_s_vis": 75.47,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 1610.11,
+          "mean_lsb_flips": 932.63,
+          "lsb_flip_rate_pct": 15.14,
+          "mean_psnr_db": 48.23,
+          "mean_h0_roi": 0.743,
+          "eq9_counts": {
+            "Clear": 694,
+            "Faint": 214,
+            "Invisible": 52
+          }
+        }
+      }
+    },
+    "3_Compressed_Zlib": {
+      "LSB": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 3066.85,
+          "mean_lsb_flips": 3066.85,
+          "lsb_flip_rate_pct": 49.79,
+          "mean_mse": 0.1575,
+          "mean_psnr_db": 57.17,
+          "mean_h0_roi": 1.0,
+          "mean_h_global": 3.7374,
+          "mean_delta_c_bbox": 121.62,
+          "mean_s_vis": 100.74,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 3068.91,
+          "mean_lsb_flips": 3068.91,
+          "lsb_flip_rate_pct": 49.82,
+          "mean_mse": 0.0156,
+          "mean_psnr_db": 66.2,
+          "mean_h0_roi": 1.0,
+          "mean_h_global": 3.7769,
+          "mean_delta_c_bbox": 113.22,
+          "mean_s_vis": 110.28,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 3089.64,
+          "mean_lsb_flips": 3089.64,
+          "lsb_flip_rate_pct": 50.16,
+          "mean_mse": 0.0157,
+          "mean_psnr_db": 66.17,
+          "mean_h0_roi": 1.0,
+          "mean_h_global": 6.7831,
+          "mean_delta_c_bbox": 113.98,
+          "mean_s_vis": 75.21,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 3078.39,
+          "mean_lsb_flips": 3078.39,
+          "lsb_flip_rate_pct": 49.97,
+          "mean_mse": 0.0039,
+          "mean_psnr_db": 72.21,
+          "mean_h0_roi": 1.0,
+          "mean_h_global": 6.8423,
+          "mean_delta_c_bbox": 110.87,
+          "mean_s_vis": 79.65,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 3075.95,
+          "mean_lsb_flips": 3075.95,
+          "lsb_flip_rate_pct": 49.93,
+          "mean_psnr_db": 65.44,
+          "mean_h0_roi": 1.0,
+          "eq9_counts": {
+            "Clear": 960,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        }
+      },
+      "PVD": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 2162.7,
+          "mean_lsb_flips": 1399.41,
+          "lsb_flip_rate_pct": 22.72,
+          "mean_mse": 1.2263,
+          "mean_psnr_db": 49.23,
+          "mean_h0_roi": 0.875,
+          "mean_h_global": 3.7475,
+          "mean_delta_c_bbox": 52.5,
+          "mean_s_vis": 42.76,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 2284.06,
+          "mean_lsb_flips": 1509.22,
+          "lsb_flip_rate_pct": 24.5,
+          "mean_mse": 0.0659,
+          "mean_psnr_db": 60.03,
+          "mean_h0_roi": 0.7111,
+          "mean_h_global": 3.7675,
+          "mean_delta_c_bbox": 45.86,
+          "mean_s_vis": 44.09,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 2193.88,
+          "mean_lsb_flips": 1426.36,
+          "lsb_flip_rate_pct": 23.16,
+          "mean_mse": 0.0803,
+          "mean_psnr_db": 59.5,
+          "mean_h0_roi": 0.9976,
+          "mean_h_global": 6.782,
+          "mean_delta_c_bbox": 49.55,
+          "mean_s_vis": 32.36,
+          "eq9_counts": {
+            "Clear": 166,
+            "Faint": 74,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 2283.78,
+          "mean_lsb_flips": 1508.9,
+          "lsb_flip_rate_pct": 24.5,
+          "mean_mse": 0.0156,
+          "mean_psnr_db": 66.3,
+          "mean_h0_roi": 0.8453,
+          "mean_h_global": 6.8461,
+          "mean_delta_c_bbox": 48.47,
+          "mean_s_vis": 40.38,
+          "eq9_counts": {
+            "Clear": 234,
+            "Faint": 6,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 2231.1,
+          "mean_lsb_flips": 1460.97,
+          "lsb_flip_rate_pct": 23.72,
+          "mean_psnr_db": 58.76,
+          "mean_h0_roi": 0.8573,
+          "eq9_counts": {
+            "Clear": 880,
+            "Faint": 80,
+            "Invisible": 0
+          }
+        }
+      },
+      "BPCS": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1663.36,
+          "mean_lsb_flips": 954.98,
+          "lsb_flip_rate_pct": 15.5,
+          "mean_mse": 20.8673,
+          "mean_psnr_db": 39.36,
+          "mean_h0_roi": 0.918,
+          "mean_h_global": 3.624,
+          "mean_delta_c_bbox": 68.23,
+          "mean_s_vis": 48.14,
+          "eq9_counts": {
+            "Clear": 193,
+            "Faint": 45,
+            "Invisible": 2
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 1832.07,
+          "mean_lsb_flips": 1114.91,
+          "lsb_flip_rate_pct": 18.1,
+          "mean_mse": 1.5856,
+          "mean_psnr_db": 49.72,
+          "mean_h0_roi": 0.8311,
+          "mean_h_global": 3.6967,
+          "mean_delta_c_bbox": 49.08,
+          "mean_s_vis": 34.72,
+          "eq9_counts": {
+            "Clear": 122,
+            "Faint": 93,
+            "Invisible": 25
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 1637.38,
+          "mean_lsb_flips": 1000.52,
+          "lsb_flip_rate_pct": 16.24,
+          "mean_mse": 1.9554,
+          "mean_psnr_db": 50.17,
+          "mean_h0_roi": 0.9882,
+          "mean_h_global": 6.7822,
+          "mean_delta_c_bbox": 81.62,
+          "mean_s_vis": 53.38,
+          "eq9_counts": {
+            "Clear": 181,
+            "Faint": 39,
+            "Invisible": 20
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 1611.92,
+          "mean_lsb_flips": 894.46,
+          "lsb_flip_rate_pct": 14.52,
+          "mean_mse": 0.2318,
+          "mean_psnr_db": 57.1,
+          "mean_h0_roi": 0.9992,
+          "mean_h_global": 6.8307,
+          "mean_delta_c_bbox": 117.73,
+          "mean_s_vis": 76.62,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 1686.18,
+          "mean_lsb_flips": 991.22,
+          "lsb_flip_rate_pct": 16.09,
+          "mean_psnr_db": 49.09,
+          "mean_h0_roi": 0.9341,
+          "eq9_counts": {
+            "Clear": 736,
+            "Faint": 177,
+            "Invisible": 47
+          }
+        }
+      }
+    },
+    "4_Encrypted_AES256": {
+      "LSB": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 3052.19,
+          "mean_lsb_flips": 3052.19,
+          "lsb_flip_rate_pct": 49.55,
+          "mean_mse": 0.1571,
+          "mean_psnr_db": 57.19,
+          "mean_h0_roi": 0.9998,
+          "mean_h_global": 3.7366,
+          "mean_delta_c_bbox": 121.05,
+          "mean_s_vis": 100.22,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 3041.3,
+          "mean_lsb_flips": 3041.3,
+          "lsb_flip_rate_pct": 49.37,
+          "mean_mse": 0.0155,
+          "mean_psnr_db": 66.24,
+          "mean_h0_roi": 0.9998,
+          "mean_h_global": 3.7761,
+          "mean_delta_c_bbox": 112.2,
+          "mean_s_vis": 109.29,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 3088.13,
+          "mean_lsb_flips": 3088.13,
+          "lsb_flip_rate_pct": 50.13,
+          "mean_mse": 0.0157,
+          "mean_psnr_db": 66.17,
+          "mean_h0_roi": 0.9998,
+          "mean_h_global": 6.7831,
+          "mean_delta_c_bbox": 113.93,
+          "mean_s_vis": 75.18,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 3056.35,
+          "mean_lsb_flips": 3056.35,
+          "lsb_flip_rate_pct": 49.62,
+          "mean_mse": 0.0039,
+          "mean_psnr_db": 72.24,
+          "mean_h0_roi": 0.9998,
+          "mean_h_global": 6.8422,
+          "mean_delta_c_bbox": 110.08,
+          "mean_s_vis": 79.08,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 3059.49,
+          "mean_lsb_flips": 3059.49,
+          "lsb_flip_rate_pct": 49.67,
+          "mean_psnr_db": 65.46,
+          "mean_h0_roi": 0.9998,
+          "eq9_counts": {
+            "Clear": 960,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        }
+      },
+      "PVD": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 2138.12,
+          "mean_lsb_flips": 1383.45,
+          "lsb_flip_rate_pct": 22.46,
+          "mean_mse": 1.2306,
+          "mean_psnr_db": 49.21,
+          "mean_h0_roi": 0.8706,
+          "mean_h_global": 3.7435,
+          "mean_delta_c_bbox": 51.94,
+          "mean_s_vis": 42.25,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 2247.75,
+          "mean_lsb_flips": 1479.97,
+          "lsb_flip_rate_pct": 24.03,
+          "mean_mse": 0.066,
+          "mean_psnr_db": 60.02,
+          "mean_h0_roi": 0.7031,
+          "mean_h_global": 3.7662,
+          "mean_delta_c_bbox": 45.03,
+          "mean_s_vis": 43.27,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 2194.68,
+          "mean_lsb_flips": 1426.91,
+          "lsb_flip_rate_pct": 23.16,
+          "mean_mse": 0.0809,
+          "mean_psnr_db": 59.47,
+          "mean_h0_roi": 0.9976,
+          "mean_h_global": 6.782,
+          "mean_delta_c_bbox": 49.56,
+          "mean_s_vis": 32.37,
+          "eq9_counts": {
+            "Clear": 167,
+            "Faint": 73,
+            "Invisible": 0
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 2245.77,
+          "mean_lsb_flips": 1482.38,
+          "lsb_flip_rate_pct": 24.06,
+          "mean_mse": 0.0155,
+          "mean_psnr_db": 66.32,
+          "mean_h0_roi": 0.8403,
+          "mean_h_global": 6.8458,
+          "mean_delta_c_bbox": 47.62,
+          "mean_s_vis": 39.63,
+          "eq9_counts": {
+            "Clear": 228,
+            "Faint": 12,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 2206.58,
+          "mean_lsb_flips": 1443.18,
+          "lsb_flip_rate_pct": 23.43,
+          "mean_psnr_db": 58.75,
+          "mean_h0_roi": 0.8529,
+          "eq9_counts": {
+            "Clear": 875,
+            "Faint": 85,
+            "Invisible": 0
+          }
+        }
+      },
+      "BPCS": {
+        "SSC_android_icon": {
+          "n": 240,
+          "mean_mod_ch": 1662.88,
+          "mean_lsb_flips": 955.95,
+          "lsb_flip_rate_pct": 15.52,
+          "mean_mse": 20.3608,
+          "mean_psnr_db": 39.43,
+          "mean_h0_roi": 0.9181,
+          "mean_h_global": 3.6245,
+          "mean_delta_c_bbox": 68.31,
+          "mean_s_vis": 48.2,
+          "eq9_counts": {
+            "Clear": 193,
+            "Faint": 46,
+            "Invisible": 1
+          }
+        },
+        "BCC_pokemon": {
+          "n": 240,
+          "mean_mod_ch": 1829.02,
+          "mean_lsb_flips": 1109.73,
+          "lsb_flip_rate_pct": 18.02,
+          "mean_mse": 1.5499,
+          "mean_psnr_db": 49.79,
+          "mean_h0_roi": 0.8298,
+          "mean_h_global": 3.6966,
+          "mean_delta_c_bbox": 48.86,
+          "mean_s_vis": 34.56,
+          "eq9_counts": {
+            "Clear": 122,
+            "Faint": 90,
+            "Invisible": 28
+          }
+        },
+        "Gray": {
+          "n": 240,
+          "mean_mod_ch": 1638.72,
+          "mean_lsb_flips": 1000.62,
+          "lsb_flip_rate_pct": 16.24,
+          "mean_mse": 1.9441,
+          "mean_psnr_db": 50.22,
+          "mean_h0_roi": 0.9884,
+          "mean_h_global": 6.7822,
+          "mean_delta_c_bbox": 81.56,
+          "mean_s_vis": 53.34,
+          "eq9_counts": {
+            "Clear": 181,
+            "Faint": 39,
+            "Invisible": 20
+          }
+        },
+        "FC_full_color": {
+          "n": 240,
+          "mean_mod_ch": 1612.91,
+          "mean_lsb_flips": 895.5,
+          "lsb_flip_rate_pct": 14.54,
+          "mean_mse": 0.2287,
+          "mean_psnr_db": 57.19,
+          "mean_h0_roi": 0.9991,
+          "mean_h_global": 6.8307,
+          "mean_delta_c_bbox": 117.91,
+          "mean_s_vis": 76.74,
+          "eq9_counts": {
+            "Clear": 240,
+            "Faint": 0,
+            "Invisible": 0
+          }
+        },
+        "_ALL_960": {
+          "n": 960,
+          "mean_mod_ch": 1685.88,
+          "mean_lsb_flips": 990.45,
+          "lsb_flip_rate_pct": 16.08,
+          "mean_psnr_db": 49.16,
+          "mean_h0_roi": 0.9339,
+          "eq9_counts": {
+            "Clear": 736,
+            "Faint": 175,
+            "Invisible": 49
+          }
+        }
+      }
+    }
+  },
+  "entropy_comparison": {
+    "LSB": {
+      "SSC_android_icon": {
+        "n": 240,
+        "H_global_cover": 3.4764,
+        "H_global_stego": 3.7255,
+        "Delta_H_global": 0.2491,
+        "p_glob_ttest": 5.695077301518331e-71,
+        "p_glob_wilcoxon": 4.4389290249507015e-41,
+        "cohen_d_glob": 1.664,
+        "H0_ROI_cover": 0.5442,
+        "H0_ROI_stego": 0.9958,
+        "Delta_H0_ROI": 0.4516,
+        "p_roi_ttest": 1.1727050547761839e-60,
+        "p_roi_wilcoxon": 4.678250078453271e-41,
+        "cohen_d_H0_ROI": 1.446,
+        "p_glob_ttest_holm": 3.986554111062832e-70,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 1.0554345492985656e-59,
+        "p_roi_wilcoxon_holm": 3.6132714451289576e-40
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "H_global_cover": 3.6822,
+        "H_global_stego": 3.7714,
+        "Delta_H_global": 0.0892,
+        "p_glob_ttest": 3.284766073641033e-250,
+        "p_glob_wilcoxon": 4.015256434384509e-41,
+        "cohen_d_glob": 10.858,
+        "H0_ROI_cover": 0.106,
+        "H0_ROI_stego": 0.9958,
+        "Delta_H0_ROI": 0.8898,
+        "p_roi_ttest": 4.580421755749966e-203,
+        "p_roi_wilcoxon": 7.256489906326133e-42,
+        "cohen_d_H0_ROI": 6.851,
+        "p_glob_ttest_holm": 3.9417192883692395e-249,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 5.496506106899959e-202,
+        "p_roi_wilcoxon_holm": 8.707787887591359e-41
+      },
+      "Gray": {
+        "n": 240,
+        "H_global_cover": 6.7805,
+        "H_global_stego": 6.7832,
+        "Delta_H_global": 0.0027,
+        "p_glob_ttest": 3.441612745754633e-06,
+        "p_glob_wilcoxon": 1.691848329061883e-27,
+        "cohen_d_glob": 0.307,
+        "H0_ROI_cover": 0.9751,
+        "H0_ROI_stego": 0.9958,
+        "Delta_H0_ROI": 0.0206,
+        "p_roi_ttest": 0.0062024021290156064,
+        "p_roi_wilcoxon": 0.0005223058533590683,
+        "cohen_d_H0_ROI": 0.178,
+        "p_glob_ttest_holm": 3.441612745754633e-06,
+        "p_glob_wilcoxon_holm": 3.383696658123766e-27,
+        "p_roi_ttest_holm": 0.013008210285940621,
+        "p_roi_wilcoxon_holm": 0.0010446117067181367
+      },
+      "FC_full_color": {
+        "n": 240,
+        "H_global_cover": 6.8302,
+        "H_global_stego": 6.8416,
+        "Delta_H_global": 0.0115,
+        "p_glob_ttest": 2.0589012513816455e-140,
+        "p_glob_wilcoxon": 4.0152171718055117e-41,
+        "cohen_d_glob": 3.653,
+        "H0_ROI_cover": 0.8494,
+        "H0_ROI_stego": 0.9958,
+        "Delta_H0_ROI": 0.1464,
+        "p_roi_ttest": 9.185023203305516e-86,
+        "p_roi_wilcoxon": 4.0147460501432863e-41,
+        "cohen_d_H0_ROI": 2.002,
+        "p_glob_ttest_holm": 2.0589012513816453e-139,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 9.185023203305516e-85,
+        "p_roi_wilcoxon_holm": 3.6132714451289576e-40
+      }
+    },
+    "PVD": {
+      "SSC_android_icon": {
+        "n": 240,
+        "H_global_cover": 3.4764,
+        "H_global_stego": 3.7392,
+        "Delta_H_global": 0.2627,
+        "p_glob_ttest": 7.283531387139962e-69,
+        "p_glob_wilcoxon": 4.065932881517562e-41,
+        "cohen_d_glob": 1.619,
+        "H0_ROI_cover": 0.5912,
+        "H0_ROI_stego": 0.8704,
+        "Delta_H0_ROI": 0.2792,
+        "p_roi_ttest": 9.995064090480582e-52,
+        "p_roi_wilcoxon": 4.0640531756160973e-41,
+        "cohen_d_H0_ROI": 1.267,
+        "p_glob_ttest_holm": 4.370118832283977e-68,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 7.996051272384465e-51,
+        "p_roi_wilcoxon_holm": 3.6132714451289576e-40
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "H_global_cover": 3.6822,
+        "H_global_stego": 3.7668,
+        "Delta_H_global": 0.0847,
+        "p_glob_ttest": 3.819997321921254e-212,
+        "p_glob_wilcoxon": 4.015256434384509e-41,
+        "cohen_d_glob": 7.49,
+        "H0_ROI_cover": 0.1521,
+        "H0_ROI_stego": 0.7119,
+        "Delta_H0_ROI": 0.5598,
+        "p_roi_ttest": 2.4416370860123732e-169,
+        "p_roi_wilcoxon": 1.407322897929232e-41,
+        "cohen_d_H0_ROI": 4.902,
+        "p_glob_ttest_holm": 4.2019970541133796e-211,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 2.6858007946136106e-168,
+        "p_roi_wilcoxon_holm": 1.5480551877221552e-40
+      },
+      "Gray": {
+        "n": 240,
+        "H_global_cover": 6.7805,
+        "H_global_stego": 6.782,
+        "Delta_H_global": 0.0014,
+        "p_glob_ttest": 5.684489419795853e-10,
+        "p_glob_wilcoxon": 5.229886280290424e-37,
+        "cohen_d_glob": 0.417,
+        "H0_ROI_cover": 0.9935,
+        "H0_ROI_stego": 0.997,
+        "Delta_H0_ROI": 0.0036,
+        "p_roi_ttest": 0.00433607009531354,
+        "p_roi_wilcoxon": 0.6786971003145299,
+        "cohen_d_H0_ROI": 0.186,
+        "p_glob_ttest_holm": 1.1368978839591707e-09,
+        "p_glob_wilcoxon_holm": 2.0919545121161697e-36,
+        "p_roi_ttest_holm": 0.013008210285940621,
+        "p_roi_wilcoxon_holm": 0.6786971003145299
+      },
+      "FC_full_color": {
+        "n": 240,
+        "H_global_cover": 6.8302,
+        "H_global_stego": 6.846,
+        "Delta_H_global": 0.0158,
+        "p_glob_ttest": 6.435802845304355e-107,
+        "p_glob_wilcoxon": 4.0152171718055117e-41,
+        "cohen_d_glob": 2.555,
+        "H0_ROI_cover": 0.5468,
+        "H0_ROI_stego": 0.8401,
+        "Delta_H0_ROI": 0.2933,
+        "p_roi_ttest": 3.1617567683195933e-49,
+        "p_roi_wilcoxon": 3.2739566029136776e-41,
+        "cohen_d_H0_ROI": 1.218,
+        "p_glob_ttest_holm": 5.792222560773919e-106,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 2.2132297378237153e-48,
+        "p_roi_wilcoxon_holm": 3.2739566029136775e-40
+      }
+    },
+    "BPCS": {
+      "SSC_android_icon": {
+        "n": 240,
+        "H_global_cover": 3.4764,
+        "H_global_stego": 3.5852,
+        "Delta_H_global": 0.1087,
+        "p_glob_ttest": 6.833888357622375e-44,
+        "p_glob_wilcoxon": 1.2385747411892772e-39,
+        "cohen_d_glob": 1.114,
+        "H0_ROI_cover": 0.8522,
+        "H0_ROI_stego": 0.9062,
+        "Delta_H0_ROI": 0.054,
+        "p_roi_ttest": 5.279927005394722e-44,
+        "p_roi_wilcoxon": 4.589141423276024e-37,
+        "cohen_d_H0_ROI": 1.116,
+        "p_glob_ttest_holm": 3.4169441788111876e-43,
+        "p_glob_wilcoxon_holm": 6.192873705946386e-39,
+        "p_roi_ttest_holm": 3.1679562032368334e-43,
+        "p_roi_wilcoxon_holm": 2.7534848539656143e-36
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "H_global_cover": 3.6822,
+        "H_global_stego": 3.6942,
+        "Delta_H_global": 0.0121,
+        "p_glob_ttest": 1.1472882540504883e-104,
+        "p_glob_wilcoxon": 4.015256434384509e-41,
+        "cohen_d_glob": 2.491,
+        "H0_ROI_cover": 0.811,
+        "H0_ROI_stego": 0.8186,
+        "Delta_H0_ROI": 0.0076,
+        "p_roi_ttest": 3.30932279213671e-11,
+        "p_roi_wilcoxon": 2.685403840867923e-10,
+        "cohen_d_H0_ROI": 0.449,
+        "p_glob_ttest_holm": 9.178306032403906e-104,
+        "p_glob_wilcoxon_holm": 4.8182606061666136e-40,
+        "p_roi_ttest_holm": 1.323729116854684e-10,
+        "p_roi_wilcoxon_holm": 1.0741615363471691e-09
+      },
+      "Gray": {
+        "n": 240,
+        "H_global_cover": 6.7805,
+        "H_global_stego": 6.7826,
+        "Delta_H_global": 0.002,
+        "p_glob_ttest": 1.8726521965367177e-24,
+        "p_glob_wilcoxon": 1.0620995520341383e-28,
+        "cohen_d_glob": 0.738,
+        "H0_ROI_cover": 0.9862,
+        "H0_ROI_stego": 0.9865,
+        "Delta_H0_ROI": 0.0003,
+        "p_roi_ttest": 0.7336361279634801,
+        "p_roi_wilcoxon": 5.1119755681510555e-08,
+        "cohen_d_H0_ROI": 0.022,
+        "p_glob_ttest_holm": 7.490608786146871e-24,
+        "p_glob_wilcoxon_holm": 3.1862986561024146e-28,
+        "p_roi_ttest_holm": 0.7336361279634801,
+        "p_roi_wilcoxon_holm": 1.5335926704453168e-07
+      },
+      "FC_full_color": {
+        "n": 240,
+        "H_global_cover": 6.8302,
+        "H_global_stego": 6.8305,
+        "Delta_H_global": 0.0003,
+        "p_glob_ttest": 5.4175433265012856e-24,
+        "p_glob_wilcoxon": 8.386234617326922e-26,
+        "cohen_d_glob": 0.729,
+        "H0_ROI_cover": 0.9984,
+        "H0_ROI_stego": 0.9946,
+        "Delta_H0_ROI": -0.0038,
+        "p_roi_ttest": 2.152064397678678e-37,
+        "p_roi_wilcoxon": 2.8885994982987597e-31,
+        "cohen_d_H0_ROI": -0.989,
+        "p_glob_ttest_holm": 1.6252629979503857e-23,
+        "p_glob_wilcoxon_holm": 8.386234617326922e-26,
+        "p_roi_ttest_holm": 1.076032198839339e-36,
+        "p_roi_wilcoxon_holm": 1.4442997491493798e-30
+      }
+    }
+  },
+  "hex_differential": {
+    "LSB": {
+      "sample_fname": "001__Gray__1002.png",
+      "coord": "(0,0)",
+      "changed_bytes": 5,
+      "cover_hex": "9E 9E 9E A3 A3 A3 86 86 86 78 78 78",
+      "stego_hex": "9E 9E 9E A2 A2 A2 87 87 86 78 78 78"
+    },
+    "PVD": {
+      "sample_fname": "001__Gray__1002.png",
+      "coord": "(0,0)",
+      "changed_bytes": 9,
+      "cover_hex": "9E 9E 9E A3 A3 A3 86 86 86 78 78 78",
+      "stego_hex": "9C 9C 9C A3 A3 A3 80 80 80 7E 7F 79"
+    },
+    "BPCS": {
+      "sample_fname": "001__Gray__1002.png",
+      "coord": "(0,0)",
+      "changed_bytes": 12,
+      "cover_hex": "9E 9E 9E A3 A3 A3 86 86 86 78 78 78",
+      "stego_hex": "90 90 90 AF AB AF 8F AF AF 5C 51 58"
+    }
+  },
+  "component3_stats": {
+    "LSB": {
+      "SSC_android_icon": {
+        "n": 240,
+        "mean_mu_shift": 0.0854,
+        "mean_var_shift": 5.0909,
+        "mean_mse": 0.1512,
+        "mean_psnr_db": 57.37,
+        "mean_chi2_hist": 1326.07,
+        "mean_pov_cov": 0.3251,
+        "mean_pov_stg": 0.2836,
+        "mean_delta_c_bbox": 116.08,
+        "mean_s_vis": 95.91,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "mean_mu_shift": 0.0139,
+        "mean_var_shift": 1.6356,
+        "mean_mse": 0.0145,
+        "mean_psnr_db": 66.5,
+        "mean_chi2_hist": 2352.21,
+        "mean_pov_cov": 0.1871,
+        "mean_pov_stg": 0.1863,
+        "mean_delta_c_bbox": 105.48,
+        "mean_s_vis": 102.74,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "Gray": {
+        "n": 240,
+        "mean_mu_shift": 0.002,
+        "mean_var_shift": 0.2502,
+        "mean_mse": 0.0157,
+        "mean_psnr_db": 66.16,
+        "mean_chi2_hist": 111.31,
+        "mean_pov_cov": 0.1331,
+        "mean_pov_stg": 0.13,
+        "mean_delta_c_bbox": 114.2,
+        "mean_s_vis": 75.39,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "FC_full_color": {
+        "n": 240,
+        "mean_mu_shift": 0.0014,
+        "mean_var_shift": 0.2838,
+        "mean_mse": 0.0038,
+        "mean_psnr_db": 72.34,
+        "mean_chi2_hist": 1036.15,
+        "mean_pov_cov": 0.0414,
+        "mean_pov_stg": 0.0411,
+        "mean_delta_c_bbox": 107.6,
+        "mean_s_vis": 77.28,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      }
+    },
+    "PVD": {
+      "SSC_android_icon": {
+        "n": 240,
+        "mean_mu_shift": 0.107,
+        "mean_var_shift": 13.9779,
+        "mean_mse": 1.1322,
+        "mean_psnr_db": 49.71,
+        "mean_chi2_hist": 614.23,
+        "mean_pov_cov": 0.3251,
+        "mean_pov_stg": 0.3098,
+        "mean_delta_c_bbox": 52.2,
+        "mean_s_vis": 42.59,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "mean_mu_shift": 0.0199,
+        "mean_var_shift": 2.3449,
+        "mean_mse": 0.0566,
+        "mean_psnr_db": 60.74,
+        "mean_chi2_hist": 1399.61,
+        "mean_pov_cov": 0.1871,
+        "mean_pov_stg": 0.1867,
+        "mean_delta_c_bbox": 46.07,
+        "mean_s_vis": 44.35,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "Gray": {
+        "n": 240,
+        "mean_mu_shift": 0.0027,
+        "mean_var_shift": 0.2057,
+        "mean_mse": 0.0776,
+        "mean_psnr_db": 59.64,
+        "mean_chi2_hist": 20.93,
+        "mean_pov_cov": 0.1331,
+        "mean_pov_stg": 0.1326,
+        "mean_delta_c_bbox": 49.55,
+        "mean_s_vis": 32.37,
+        "eq9_counts": {
+          "Clear": 167,
+          "Faint": 73,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      },
+      "FC_full_color": {
+        "n": 240,
+        "mean_mu_shift": 0.0034,
+        "mean_var_shift": 0.6095,
+        "mean_mse": 0.0138,
+        "mean_psnr_db": 66.85,
+        "mean_chi2_hist": 1003.58,
+        "mean_pov_cov": 0.0414,
+        "mean_pov_stg": 0.0406,
+        "mean_delta_c_bbox": 48.3,
+        "mean_s_vis": 40.33,
+        "eq9_counts": {
+          "Clear": 216,
+          "Faint": 24,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      }
+    },
+    "BPCS": {
+      "SSC_android_icon": {
+        "n": 240,
+        "mean_mu_shift": 0.1346,
+        "mean_var_shift": 33.7193,
+        "mean_mse": 25.1034,
+        "mean_psnr_db": 38.58,
+        "mean_chi2_hist": 255.07,
+        "mean_pov_cov": 0.3251,
+        "mean_pov_stg": 0.3214,
+        "mean_delta_c_bbox": 67.26,
+        "mean_s_vis": 47.4,
+        "eq9_counts": {
+          "Clear": 189,
+          "Faint": 50,
+          "Invisible": 1
+        },
+        "mean_class": "Clear"
+      },
+      "BCC_pokemon": {
+        "n": 240,
+        "mean_mu_shift": 0.0054,
+        "mean_var_shift": 1.3432,
+        "mean_mse": 1.8828,
+        "mean_psnr_db": 48.82,
+        "mean_chi2_hist": 99.46,
+        "mean_pov_cov": 0.1871,
+        "mean_pov_stg": 0.1845,
+        "mean_delta_c_bbox": 48.74,
+        "mean_s_vis": 34.45,
+        "eq9_counts": {
+          "Clear": 124,
+          "Faint": 91,
+          "Invisible": 25
+        },
+        "mean_class": "Clear"
+      },
+      "Gray": {
+        "n": 240,
+        "mean_mu_shift": 0.0097,
+        "mean_var_shift": 2.043,
+        "mean_mse": 2.6673,
+        "mean_psnr_db": 49.08,
+        "mean_chi2_hist": 45.66,
+        "mean_pov_cov": 0.1331,
+        "mean_pov_stg": 0.1353,
+        "mean_delta_c_bbox": 81.49,
+        "mean_s_vis": 53.3,
+        "eq9_counts": {
+          "Clear": 182,
+          "Faint": 40,
+          "Invisible": 18
+        },
+        "mean_class": "Clear"
+      },
+      "FC_full_color": {
+        "n": 240,
+        "mean_mu_shift": 0.0013,
+        "mean_var_shift": 0.2202,
+        "mean_mse": 0.3163,
+        "mean_psnr_db": 55.93,
+        "mean_chi2_hist": 8.4,
+        "mean_pov_cov": 0.0414,
+        "mean_pov_stg": 0.0412,
+        "mean_delta_c_bbox": 117.87,
+        "mean_s_vis": 76.7,
+        "eq9_counts": {
+          "Clear": 240,
+          "Faint": 0,
+          "Invisible": 0
+        },
+        "mean_class": "Clear"
+      }
+    }
+  }
+}
